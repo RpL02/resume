@@ -1,0 +1,30 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+header{
+	height: 150px;
+}
+main {
+	flex: 1 0 auto;
+}
+i{
+	margin: 10px;
+}
+.dev{
+	font-size: 30px;
+}
+.avatar{
+	border: 5px solid white;
+	max-height: 200px;
+	position: relative;
+	top: -82px;
+}
+.no-margin{
+	margin: 0;	
+}
+.icon{
+	top: 8px;
+    position: relative;
+}
